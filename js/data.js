@@ -66,7 +66,7 @@ const generatePhotoDescription = () => {
     descriptions.push(
       {
         id: i,
-        url: `../photos/${i}`,
+        url: `../photos/${i}.jpg`,
         description: photoMessageMock[Math.floor(Math.random() * photoMessageMock.length)],
         likes: generateLikesCount(),
         comments: generateComments(),

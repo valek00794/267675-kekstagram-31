@@ -1,3 +1,6 @@
-import {generatePhotoDescription} from './data.js';
+import {pictureFragment} from './render.js';
 
-export const photoDescriptions = generatePhotoDescription();
+const picturesContauner = document.querySelector('.pictures');
+
+picturesContauner.append(pictureFragment);
+
