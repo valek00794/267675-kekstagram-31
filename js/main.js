@@ -1,6 +1,7 @@
 import {pictureFragment} from './render.js';
+import './render-full.js';
 
-const picturesContauner = document.querySelector('.pictures');
+const picturesContainer = document.querySelector('.pictures');
 
-picturesContauner.append(pictureFragment);
+picturesContainer.append(pictureFragment);
 
